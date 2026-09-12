@@ -44,3 +44,7 @@ SportsCarBuilder starts with a V8 engine and 2 seats.
 SuvBuilder starts with a hybrid engine and 7 seats.
 Both share construction logic through AbstractCarBuilder.
 Their methods can be chained to customize the car before calling build().
+
+5 th commit 
+CarDirector provides reusable city and travel configurations.
+Main demonstrates building cars directly and through the director.
