@@ -33,4 +33,14 @@ Implemented:
 - SportsCarBuilder with a V8 engine and 2 seats.
 - SuvBuilder with a hybrid engine and 7 seats.
 
-Next: update Main to build and display both cars.
+
+4th commit 
+
+Car stores the model, engine, seats, and GPS setting.
+Its constructor checks that the model and engine are not blank
+and the seat count is positive.
+
+SportsCarBuilder starts with a V8 engine and 2 seats.
+SuvBuilder starts with a hybrid engine and 7 seats.
+Both share construction logic through AbstractCarBuilder.
+Their methods can be chained to customize the car before calling build().
