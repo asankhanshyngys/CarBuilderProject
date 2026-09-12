@@ -13,3 +13,10 @@ mkdir out -Force
 javac --release 17 -d out src/*.java
 java -cp out Main
 ```
+
+# Car Builder
+
+So far:
+- Added the Car class with model, engine, seats, and GPS.
+- Added validation for the model, engine, and seat count.
+- Added the CarBuilder interface with methods for configuring and building a car.
